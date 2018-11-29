@@ -1,0 +1,63 @@
+html {box-sizing:border-box;}
+*,* :after, *:before {box-sizing:inherit;}
+
+* {
+	background-color: rgb(80, 152, 207);
+	font-family: Verdana, helvetica, sans-serif;
+	font-size: 10px;
+}
+
+div {
+	display: flex;
+	justify-content: space-around;
+}
+
+
+fieldset {
+	border-style: none;
+}
+
+label {
+	color: rgb(230,232,233);
+	margin-bottom: 7px;
+}
+
+label, input, textarea, select {
+	display: block;
+	width: 265px;
+	border: 2px;
+}
+
+input {
+	height: 40px;
+	color: rgb(234, 234, 234);
+}
+
+input, textarea, select {
+	border-style: solid;
+	border-color: rgb(234, 234, 234);
+	margin-bottom: 16px;
+}
+
+input:focus {
+	color: rgb(234, 234, 234);
+	border-color: rgb(38,94,141);
+}
+
+textarea {
+	height: 125px;
+	border-width: 2px;
+}
+
+select {
+	color: rgb(234, 234, 234);
+}
+
+::placeholder {
+	color: rgb(64, 101, 129);
+}
+
+
+
+
+
